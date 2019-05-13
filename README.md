@@ -5,8 +5,9 @@ This project provides:
 * A sample UI (using Thymeleaf) to drive the API.
 
 # REST API
-REST endpoints and interactions are shown below.
-Note that more than one Employee can share the same ID.
+The REST endpoint is available at `:8080/rest/employees` by default. 
+The supported interactions are shown below.
+Note that currently, more than one Employee can share the same ID as there is no database constraint.
 
 | URL                  | Method | Input                        | Output                                        |
 |----------------------|--------|------------------------------|-----------------------------------------------|
